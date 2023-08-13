@@ -1,0 +1,10 @@
+#3. BaseModel
+[BaseModel] (a7048705-e413-4baa-88ea-9cd9e75abba9) {'id': 'a7048705-e413-4baa-88ea-9cd9e75abba9', 'created_at': datetime.datetime(2023, 8, 13, 10, 29, 6, 727744), 'updated_at': datetime.datetime(2023, 8, 13, 10, 29, 6, 727744), '_BaseModel__class_name': 'BaseModel', 'name': 'My First Model', 'my_number': 89}
+[BaseModel] (a7048705-e413-4baa-88ea-9cd9e75abba9) {'id': 'a7048705-e413-4baa-88ea-9cd9e75abba9', 'created_at': datetime.datetime(2023, 8, 13, 10, 29, 6, 727744), 'updated_at': datetime.datetime(2023, 8, 13, 10, 29, 6, 727823), '_BaseModel__class_name': 'BaseModel', 'name': 'My First Model', 'my_number': 89}
+a7048705-e413-4baa-88ea-9cd9e75abba9
+2023-08-13T10:29:06.727744
+2023-08-13T10:29:06.727823
+BaseModel
+My First Model
+89
+BaseModel
