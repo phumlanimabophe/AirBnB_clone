@@ -6,7 +6,6 @@ which sub-classes the `BaseModel()` class.`
 """
 from models.base_model import BaseModel
 
-
 class Review(BaseModel):
     """A review of a place/house.
 
@@ -14,10 +13,13 @@ class Review(BaseModel):
     of the application about a place/house.
 
     Attributes:
-        text
-        user_id
-        place_id
+        text        # Text content of the review
+        user_id     # ID of the user who posted the review
+        place_id    # ID of the place/house being reviewed
     """
+    # Initialize the review text as an empty string
     text = ""
+    # Initialize the user ID as an empty string
     user_id = ""
+    # Initialize the place ID as an empty string
     place_id = ""
