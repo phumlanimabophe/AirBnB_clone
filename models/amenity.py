@@ -1,14 +1,17 @@
 #!/usr/bin/python3
-"""
-This is the Amenity class that represents new amenities.
-"""
+"""The `amenity` module
 
-# Import the BaseModel class
+It defines one class, `Amenity(),
+which sub-classes the `BaseModel()` class.`
+"""
 from models.base_model import BaseModel
 
-# Define the Amenity class that inherits from BaseModel
+
 class Amenity(BaseModel):
-    """ Amenity subclass that inherits from BaseModel """
-    
-    # Initialize the 'name' attribute
+    """An amenity provided by a place/house.
+
+    Attributes:
+        name
+    """
+
     name = ""

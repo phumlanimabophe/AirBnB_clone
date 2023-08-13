@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-""" call to filestorage class """
-from models.engine.file_storage import FileStorage
-storage = FileStorage()
+"""
+Module: __init__.py
+"""
+from models.engine import file_storage
+
+storage = file_storage.FileStorage()
 storage.reload()
